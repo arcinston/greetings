@@ -12,7 +12,7 @@ func Hello(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("empty name")
 	}
-	// Return a greeting that embeds the name in a message.
+	// Return a greeting that embeds the name in a message .
 	message := fmt.Sprintf(randGreeting(), name)
 	return message, nil
 }
